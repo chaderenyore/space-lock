@@ -7,7 +7,7 @@
 }
 
 .input {
-  @apply w-[100%] bg-white border-none text-[#1D2130] outline-transparent p-2 rounded-sm text-[#1D2130] focus:outline-transparent;
+  @apply w-[100%] bg-white border-none text-[#1D2130] outline-transparent p-2 rounded-sm text-[#1D2130];
 }
 
 .gradient {

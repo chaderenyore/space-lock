@@ -1272,10 +1272,6 @@ video {
   outline-color: transparent;
 }
 
-.input:focus {
-  outline-color: transparent;
-}
-
 .gradient {
   position: absolute;
   z-index: -10;
