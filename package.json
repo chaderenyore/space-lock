@@ -1,0 +1,19 @@
+{
+  "name": "space-lock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch",
+    "start": "npm run watch:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

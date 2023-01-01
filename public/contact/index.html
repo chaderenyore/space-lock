@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Lock Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../styles.css" rel="stylesheet" />
+  </head>
+  <body class="font-['Roboto']">
+    <header class="h-12 bg-white">
+      <nav>
+        <h1 class="text-red-800">Header Section</h1>
+      </nav>
+    </header>
+    <main>
+      <div class="gradient">
+        <img src="../img/Contact Gradient.webp" alt="" />
+      </div>
+      <div class="contact-message pt-8">
+        <h1
+          class="text-center text-[#1D2130] font-medium md:font-bold text-4xl"
+        >
+          Get in touch with us
+        </h1>
+      </div>
+      <article
+        class="contact-form w-[90%] m-auto mt-6 bg-[#F0F2FE] rounded-2xl p-4 py-6 flex flex-col md:flex-row justify-around"
+      >
+        <form action="" class="contact-form__form md:w-[58%] lg:w-[45%]">
+          <h5
+            class="text-center md:text-left text-[#1D2130] font-medium md:font-semibold text-xl lg:text-3xl"
+          >
+            Drop us a message
+          </h5>
+          <p class="text-base mt-2 text-center md:text-left text-[#1D2130]">
+            We will get back to you as soon as possible.
+          </p>
+
+          <div class="form-group mt-3 flex flex-col md:flex-row md:gap-2">
+            <input
+              type="text"
+              name="Name"
+              class="input"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="text"
+              name="CompanyName"
+              class="input mt-2 md:mt-0"
+              placeholder="Company Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              class="input mt-2"
+              placeholder="Work Email"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              class="input mt-2"
+              placeholder="Subject"
+              required
+            />
+            <textarea
+              name="mainmessage"
+              id="mainmessage"
+              cols="30"
+              rows="5"
+              class="input mt-2"
+              required
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button class="cta w-[100%] mt-4">Send</button>
+        </form>
+        <article
+          class="contact-form__links md:self-center mt-4 flex flex-col gap-5"
+        >
+          <div class="links-group flex gap-4">
+            <div class="links-group__image w-8 self-center">
+              <img src="../img/Call Icon.svg" alt="Call Us" />
+            </div>
+            <div class="links-group__texts flex flex-col gap-0.5">
+              <h5 class="font-medium">+234 812 403 9270</h5>
+              <p class="text-sm">Free support</p>
+            </div>
+          </div>
+
+          <div class="links-group flex gap-4">
+            <div class="links-group__image w-8 self-center">
+              <img src="../img/Support Icon.svg" alt="Email us" />
+            </div>
+            <div class="links-group__texts flex flex-col gap-0.5">
+              <h5 class="font-medium">nyorechadere@gmail.com</h5>
+              <p class="text-sm">Help Email Support</p>
+            </div>
+          </div>
+
+          <div class="links-group flex gap-4">
+            <div class="links-group__image w-8 self-center">
+              <img src="../img/Call Icon.svg" alt="Email Us" />
+            </div>
+            <div class="links-group__texts flex flex-col gap-0.5">
+              <h5 class="font-medium">chaderenyore480@gmail.com</h5>
+              <p class="text-sm">Sales enquiry</p>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <section class="final-cta py-24">
+        <div
+          class="wrapper w-[90%] m-auto md:w-[50%] lg:w-[50%] flex flex-col items-center gap-10"
+        >
+          <h1 class="font-bold text-3xl mt-10 text-center">
+            Are you ready to grow your business with us?
+          </h1>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy.
+          </p>
+          <button
+            class="bg-black rounded-md px-8 py-4 font-medium text-white text-xl"
+          >
+            View Pricing
+          </button>
+        </div>
+      </section>
+      <footer
+        class="footer bg-[#1D2130] text-white p-12 flex flex-wrap justify-between gap-3"
+      >
+        <div class="footer__link-group flex flex-col gap-2">
+          <h4 class="footer__link-group--title text-lg font-bold">Company</h4>
+          <p class="footer__link-group--links">
+            <a href="/about">About us</a>
+          </p>
+          <p class="footer__link-group--links">
+            <a href="#"> Why Choose us </a>
+          </p>
+          <p class="footer__link-group--links"><a href="#">Pricing</a></p>
+          <p class="footer__link-group--links"><a href="#">Testimonial</a></p>
+        </div>
+
+        <div class="footer__link-group flex flex-col gap-2">
+          <h4 class="footer__link-group--title text-lg font-bold">Resources</h4>
+          <p class="footer__link-group--links">
+            <a href="#">Privacy Policy</a>
+          </p>
+          <p class="footer__link-group--links">
+            <a href="#">Terms and Conditions</a>
+          </p>
+          <p class="footer__link-group--links"><a href="#">Blog</a></p>
+          <p class="footer__link-group--links">
+            <a href="/contact">Contact Us</a>
+          </p>
+        </div>
+
+        <div class="footer__link-group flex flex-col gap-2">
+          <h4 class="footer__link-group--title text-lg font-bold">Product</h4>
+          <p class="footer__link-group--links">
+            <a href="#">Project Management</a>
+          </p>
+          <p class="footer__link-group--links">
+            <a href="#">Time Tracker</a>
+          </p>
+          <p class="footer__link-group--links"><a href="#">Time Schedule</a></p>
+          <p class="footer__link-group--links">
+            <a href="">Lead Generate</a>
+          </p>
+          <p class="footer__link-group--links">
+            <a href="">Remote Collaboration</a>
+          </p>
+        </div>
+
+        <div class="company-subtitle mt-2 md:-mt-2">
+          <h4 class="footer__link-group--title text-3xl font-medium">
+            Space Lock
+          </h4>
+          <h3 class="text-lg font-medium mt-4">Subscribe to our newsletter</h3>
+          <form action="" class="mt-2 bg-[#2B2E3C]">
+            <input
+              type="email"
+              required
+              class="p-3 bg-transparent border-none text-[#1D2130] outline-none text-current"
+              placeholder="Enter your email"
+            />
+            <button
+              type="submit"
+              class="rounded-md px-4 py-2 bg-white text-[#1D2130] font-medium"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
