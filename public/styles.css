@@ -642,6 +642,14 @@ video {
   margin-top: -0.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -676,10 +684,6 @@ video {
 
 .h-5 {
   height: 1.25rem;
-}
-
-.h-12 {
-  height: 3rem;
 }
 
 .h-9 {
@@ -744,6 +748,10 @@ video {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .max-w-screen-xl {
@@ -840,6 +848,10 @@ video {
 
 .gap-0 {
   gap: 0px;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1046,6 +1058,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -1068,6 +1090,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
@@ -1190,11 +1216,6 @@ video {
   color: currentColor;
 }
 
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
-}
-
 .text-\[\#1b4986\] {
   --tw-text-opacity: 1;
   color: rgb(27 73 134 / var(--tw-text-opacity));
@@ -1208,6 +1229,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-\[\#6D6E76\] {
+  --tw-text-opacity: 1;
+  color: rgb(109 110 118 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1233,8 +1259,8 @@ video {
   outline-style: solid;
 }
 
-.outline-transparent {
-  outline-color: transparent;
+.outline-0 {
+  outline-width: 0px;
 }
 
 .blur {
@@ -1269,6 +1295,7 @@ video {
   padding: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(29 33 48 / var(--tw-text-opacity));
+  outline-width: 0px;
   outline-color: transparent;
 }
 
@@ -1476,6 +1503,10 @@ video {
     margin-top: -0.5rem;
   }
 
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1526,6 +1557,14 @@ video {
 
   .md\:w-\[58\%\] {
     width: 58%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
   }
 
   .md\:grid-cols-3 {
@@ -1593,6 +1632,11 @@ video {
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:pb-4 {
@@ -1688,8 +1732,17 @@ video {
     width: 45%;
   }
 
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .lg\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .lg\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
   }
 
   .lg\:text-base {
